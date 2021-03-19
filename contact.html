@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="nl-NL">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>My Vantures 2.0</title>
+</head>
+
+<body>
+    <header>
+        <h1>Let's Get In Contact</h1>
+    </header>
+    <nav id="main-nav">
+        <ul class="menu">
+            <li>
+                <a href="shop.html">
+                    <h4>Shop</h4>
+                </a>
+            </li>
+            <li>
+                <a href="gallery.html">
+                    <h4>Gallery</h4>
+                </a>
+            </li>
+            <li>
+                <a href="About.html">
+                    <h4>About</h4>
+                </a>
+            </li>
+            <li>
+                <a href="blog.html">
+                    <h4>Blog</h4>
+                </a>
+            </li>
+            <li>
+                <a href="index.html">
+                    <h4>Home</h4>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <hr>
+
+    <main>
+        <h2>Jouw recept ook op deze pagina? Vul dan onderstaand formulier in</h2>
+        <form name="contact" method="POST" data-netlify="true">
+                <label>Dhr <input type="radio" name="gender" /></label>
+                <label>Mevr <input type="radio" name="gender" /></label>
+            <p>
+                <label>Voornaam <input type="text" name="fname" /></label>
+                <label>Achternaam <input type="text" name="lname" /></label>
+            </p> 
+            <p>
+                <label>E-mailadres <input type="email" name="email address" /></label>
+            </p>
+            <p>
+               <label>Telefoonnummer <input type="tel" /></label>
+            </p>
+                <label>Geboortedatum <input type="date" /></label>
+            <p>
+            <p>Favoriete Keuken:</p>
+                <label>Frans <input type="checkbox" /></label>
+                <label>Italiaans <input type="checkbox" /></label>
+                <label>Spaans <input type="checkbox" /></label>
+                <label>Arabisch <input type="checkbox" /></label>
+            </p>
+            <p>
+                <label>Favoriete kleur schort <input type="color" /></label>
+            </p>
+            <p>
+                <label>Biografie <textarea name="message"></textarea></label>
+            </p>  
+            <p>
+                <label>Upload recept <input type="file" /></label>
+            </p>
+            <p>
+                <label>Jouw website <input type="url" /></label>
+            </p>
+
+            <p>
+                <button type="submit">Send</button>
+                <button type="reset">Reset</button>
+            </p>
+        </form>
+
+        <div style="margin-top:530px;"></div>
+    </main>
+
+    <footer>
+        <p>&copy;2021 - CTC creations</p>
+    </footer>
+
+</body>
+
+</html>
